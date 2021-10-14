@@ -1,0 +1,14 @@
+4주차 과제
+
+targetVar = ['Price', 'MPG.city', 'MPG.highway', 'Rev.per.mile']             
+
+g = sns.pairplot(df, vars=targetVar)
+
+corrValue = df[targetVar].corr().values
+for i, (ax, cv) in enumerate(zip(g.axes.flat, corrValue.flatten())):   
+    if(cv != 1.0):
+        ax.text(0.5,0.8, "Corr= {:.2f}".format(cv), horizontalalignment='center',
+               verticalalignment='center', transform = ax.transAxes)  
+ 마지막
+ transform = ax.transAxes 로 하면 x, y 값 기준이아니라 axes 기준으로 바뀜 
+      
