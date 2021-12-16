@@ -4,6 +4,8 @@ Repository for DAP Course
 Data Analysis Programming
 2021년 2학기 데이터 분석 프로그래밍 과제 
 
+DAP_Project : NFT 데이터에 대한 분석 (기말 과제)
+
 lecture 1 - 파이썬  
 lecture 2 - 넘파이, 판다스  
 lecture 3 - 데이터 분석 : 통계적 표현, 두 객체 사이 관계표현, 통계적 가설 테스트  
